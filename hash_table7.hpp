@@ -317,7 +317,7 @@ template <typename KeyT, typename ValueT, typename HashT = std::hash<KeyT>, type
 class HashMap
 {
 #ifndef EMH_DEFAULT_LOAD_FACTOR
-    constexpr static float EMH_DEFAULT_LOAD_FACTOR = 0.80f;
+    constexpr static float EMH_DEFAULT_LOAD_FACTOR = 1.0f;
 #endif
     constexpr static float EMH_MIN_LOAD_FACTOR     = 0.25f;
 
